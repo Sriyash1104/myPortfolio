@@ -4,9 +4,9 @@
 }
 body{
 	
-	background:url("C:/Users/DELL/Desktop/SyntaxSaga/Images/bg5.jpg");
-	background-size:cover;
-	background-attachment:fixed;
+	background:url("bg5.jpg");
+	background-size: cover;
+	background-attachment: fixed;
 	box-sizing:border-box;
 }
 
@@ -17,7 +17,7 @@ header{
 	height:40px;
 	width:100%;
 	background-color:#419161;
-	color:white;
+	color: white;
 	font-family: "Bebas Neue", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -25,14 +25,14 @@ header{
 }
 
 h1{
-	float:left;
-	margin:auto;
+	float: left;
+	margin: auto;
 	font-size:30px;
 	margin-left:20px;
 	height:30px;
 	width:100%;
 	background-color:#419161;
-	color:white;
+	color: white;
 	font-family: "Bebas Neue", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -46,16 +46,16 @@ nav{
 }
 
 ul{
-	display:flex;
-	margin:auto;
+	display: flex;
+	margin: auto;
 	list-style-type:none;
 	justify-content:flex-end;
 }
 
 li{
 	margin-left:20px;
-	cursor:pointer;
-	position:relative;
+	cursor: pointer;
+	position: relative;
 	display:inline-block;
 	padding-bottom:5px;
 	font-size:18px;
@@ -63,13 +63,13 @@ li{
 
 nav ul li::after{
 	content:"";
-	position:absolute;
+	position: absolute;
 	left:0;
 	bottom:5;
 	height:2px;
 	width:0;
-	background-color:white;
-	transition:width 0.3s ease-in-out;
+	background-color: white;
+	transition :width 0.3s ease-in-out;
 }
 
 nav ul li:hover::after{
@@ -93,11 +93,11 @@ nav ul li:hover::after{
 	font-size:30px;
 	margin-left:30px;
 	margin-top:50px;
-	position:absolute;
+	position: absolute;
 	display:inline-block;
 }
 .introduction{
-	color:white;
+	color :white;
 }
 .name{
 	font-family: "Pacifico", cursive;
